@@ -4,7 +4,11 @@ using System.Text;
 
 namespace InheritanceAndPoloymorphismPractice
 {
-    class Child
+    public class Child : Family
     {
+        public Child(int age) : base(10)
+        {
+
+        }
     }
 }
