@@ -10,5 +10,13 @@ namespace InheritanceAndPoloymorphismPractice
         {
 
         }
+
+        public int ChangeAge()
+        {
+            this.Age = ++Age;
+            return Age;
+
+
+        }
     }
 }

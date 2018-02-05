@@ -6,7 +6,12 @@ namespace InheritanceAndPoloymorphismPractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Parent parentOne = new Parent("bob");
+            Child childOne = new Child(5);
+
+            parentOne.ParentName();
+            Console.WriteLine("The child's age is " + childOne.ChangeAge());
+
         }
     }
 }
