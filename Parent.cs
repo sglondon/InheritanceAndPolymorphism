@@ -8,9 +8,10 @@ namespace InheritanceAndPoloymorphismPractice
     {
 
 
-        public Parent(string name) : base("John")
+        public Parent(string name) //: base("John")
         {
-
+            this.Name = name;
+            
         }
 
         public void ParentName()

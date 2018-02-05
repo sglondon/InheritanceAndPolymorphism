@@ -27,6 +27,11 @@ namespace InheritanceAndPoloymorphismPractice
             set { this.age = value; }
         }
 
+        public Family()
+        {
+            //default constructor
+        }
+
         public Family(string name)
         {
             this.name = name;

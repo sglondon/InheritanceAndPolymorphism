@@ -6,8 +6,9 @@ namespace InheritanceAndPoloymorphismPractice
 {
     public class Child : Family
     {
-        public Child(int age) : base(10)
+        public Child(int age) //: base(10)
         {
+            this.Age = age;
 
         }
 
